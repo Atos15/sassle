@@ -1,0 +1,2150 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "sassle",
+      "version": "0.0.1",
+      "private": true,
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "^2.0.0",
+        "@sveltejs/kit": "^1.5.0",
+        "svelte": "^3.54.0",
+        "svelte-check": "^3.0.1",
+        "tslib": "^2.4.1",
+        "typescript": "^5.0.0",
+        "vite": "^4.2.0"
+      },
+      "type": "module"
+    },
+    "prefix": "C:\\Personal\\Projects\\sassle"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\toscano\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\Personal\\Projects\\sassle\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Personal\\Projects\\sassle",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.4.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.5.0",
+    "requester": "C:\\Personal\\Projects\\sassle",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.5.0",
+    "requester": "C:\\Personal\\Projects\\sassle",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "requester": "C:\\Personal\\Projects\\sassle",
+    "status": "resolved"
+  },
+  "9 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "size": 7051452,
+    "status": "started"
+  },
+  "10 debug pnpm:fetching-progress": {
+    "downloaded": 15861,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "11 debug pnpm:fetching-progress": {
+    "downloaded": 32176,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "12 debug pnpm:fetching-progress": {
+    "downloaded": 48560,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "13 debug pnpm:fetching-progress": {
+    "downloaded": 64944,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "14 debug pnpm:fetching-progress": {
+    "downloaded": 81328,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "15 debug pnpm:fetching-progress": {
+    "downloaded": 97712,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "16 debug pnpm:fetching-progress": {
+    "downloaded": 114096,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "downloaded": 130480,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "18 debug pnpm:fetching-progress": {
+    "downloaded": 146864,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "19 debug pnpm:fetching-progress": {
+    "downloaded": 163248,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "20 debug pnpm:fetching-progress": {
+    "downloaded": 179632,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "21 debug pnpm:fetching-progress": {
+    "downloaded": 196016,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "22 debug pnpm:fetching-progress": {
+    "downloaded": 212400,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "23 debug pnpm:fetching-progress": {
+    "downloaded": 216255,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "24 debug pnpm:fetching-progress": {
+    "downloaded": 232639,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "25 debug pnpm:fetching-progress": {
+    "downloaded": 249023,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "26 debug pnpm:fetching-progress": {
+    "downloaded": 265407,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "27 debug pnpm:fetching-progress": {
+    "downloaded": 281791,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "28 debug pnpm:fetching-progress": {
+    "downloaded": 298175,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "29 debug pnpm:fetching-progress": {
+    "downloaded": 314559,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "30 debug pnpm:fetching-progress": {
+    "downloaded": 330943,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "31 debug pnpm:fetching-progress": {
+    "downloaded": 347327,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "32 debug pnpm:fetching-progress": {
+    "downloaded": 363711,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "33 debug pnpm:fetching-progress": {
+    "downloaded": 380095,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "34 debug pnpm:fetching-progress": {
+    "downloaded": 396479,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "35 debug pnpm:fetching-progress": {
+    "downloaded": 412863,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "36 debug pnpm:fetching-progress": {
+    "downloaded": 429247,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "37 debug pnpm:fetching-progress": {
+    "downloaded": 445631,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "38 debug pnpm:fetching-progress": {
+    "downloaded": 462015,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "39 debug pnpm:fetching-progress": {
+    "downloaded": 478399,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "40 debug pnpm:fetching-progress": {
+    "downloaded": 494783,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "41 debug pnpm:fetching-progress": {
+    "downloaded": 511167,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "42 debug pnpm:fetching-progress": {
+    "downloaded": 527551,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "43 debug pnpm:fetching-progress": {
+    "downloaded": 543935,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "44 debug pnpm:fetching-progress": {
+    "downloaded": 560319,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "45 debug pnpm:fetching-progress": {
+    "downloaded": 576703,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "46 debug pnpm:fetching-progress": {
+    "downloaded": 593087,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "47 debug pnpm:fetching-progress": {
+    "downloaded": 609471,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "48 debug pnpm:fetching-progress": {
+    "downloaded": 625855,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "49 debug pnpm:fetching-progress": {
+    "downloaded": 642239,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "50 debug pnpm:fetching-progress": {
+    "downloaded": 658623,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "51 debug pnpm:fetching-progress": {
+    "downloaded": 675007,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "52 debug pnpm:fetching-progress": {
+    "downloaded": 691391,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "53 debug pnpm:fetching-progress": {
+    "downloaded": 707775,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "54 debug pnpm:fetching-progress": {
+    "downloaded": 724159,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "55 debug pnpm:fetching-progress": {
+    "downloaded": 740543,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "56 debug pnpm:fetching-progress": {
+    "downloaded": 756927,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "57 debug pnpm:fetching-progress": {
+    "downloaded": 773311,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "58 debug pnpm:fetching-progress": {
+    "downloaded": 789695,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "59 debug pnpm:fetching-progress": {
+    "downloaded": 806079,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "60 debug pnpm:fetching-progress": {
+    "downloaded": 822463,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "61 debug pnpm:fetching-progress": {
+    "downloaded": 838847,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "62 debug pnpm:fetching-progress": {
+    "downloaded": 855231,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "63 debug pnpm:fetching-progress": {
+    "downloaded": 871615,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "64 debug pnpm:fetching-progress": {
+    "downloaded": 887999,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "65 debug pnpm:fetching-progress": {
+    "downloaded": 904383,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "66 debug pnpm:fetching-progress": {
+    "downloaded": 920767,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "67 debug pnpm:fetching-progress": {
+    "downloaded": 937151,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "68 debug pnpm:fetching-progress": {
+    "downloaded": 953535,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "69 debug pnpm:fetching-progress": {
+    "downloaded": 969919,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "70 debug pnpm:fetching-progress": {
+    "downloaded": 986303,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "71 debug pnpm:fetching-progress": {
+    "downloaded": 1002687,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "72 debug pnpm:fetching-progress": {
+    "downloaded": 1019071,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "73 debug pnpm:fetching-progress": {
+    "downloaded": 1035455,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "74 debug pnpm:fetching-progress": {
+    "downloaded": 1051839,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "75 debug pnpm:fetching-progress": {
+    "downloaded": 1068223,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "76 debug pnpm:fetching-progress": {
+    "downloaded": 1084607,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "77 debug pnpm:fetching-progress": {
+    "downloaded": 1100991,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "78 debug pnpm:fetching-progress": {
+    "downloaded": 1117375,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "79 debug pnpm:fetching-progress": {
+    "downloaded": 1133759,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "80 debug pnpm:fetching-progress": {
+    "downloaded": 1150143,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "81 debug pnpm:fetching-progress": {
+    "downloaded": 1166527,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "82 debug pnpm:fetching-progress": {
+    "downloaded": 1182911,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "83 debug pnpm:fetching-progress": {
+    "downloaded": 1199295,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "84 debug pnpm:fetching-progress": {
+    "downloaded": 1215679,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "85 debug pnpm:fetching-progress": {
+    "downloaded": 1232063,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "86 debug pnpm:fetching-progress": {
+    "downloaded": 1248447,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "87 debug pnpm:fetching-progress": {
+    "downloaded": 1264831,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "88 debug pnpm:fetching-progress": {
+    "downloaded": 1281215,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "89 debug pnpm:fetching-progress": {
+    "downloaded": 1297599,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "90 debug pnpm:fetching-progress": {
+    "downloaded": 1313983,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "downloaded": 1330367,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "92 debug pnpm:fetching-progress": {
+    "downloaded": 1346751,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "93 debug pnpm:fetching-progress": {
+    "downloaded": 1363135,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "94 debug pnpm:fetching-progress": {
+    "downloaded": 1379519,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "95 debug pnpm:fetching-progress": {
+    "downloaded": 1395903,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "96 debug pnpm:fetching-progress": {
+    "downloaded": 1412287,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "97 debug pnpm:fetching-progress": {
+    "downloaded": 1428671,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "98 debug pnpm:fetching-progress": {
+    "downloaded": 1445055,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "99 debug pnpm:fetching-progress": {
+    "downloaded": 1461439,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "100 debug pnpm:fetching-progress": {
+    "downloaded": 1477823,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "101 debug pnpm:fetching-progress": {
+    "downloaded": 1494207,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "102 debug pnpm:fetching-progress": {
+    "downloaded": 1510591,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "103 debug pnpm:fetching-progress": {
+    "downloaded": 1526975,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "104 debug pnpm:fetching-progress": {
+    "downloaded": 1543359,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "105 debug pnpm:fetching-progress": {
+    "downloaded": 1559743,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "106 debug pnpm:fetching-progress": {
+    "downloaded": 1576127,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "107 debug pnpm:fetching-progress": {
+    "downloaded": 1592511,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "108 debug pnpm:fetching-progress": {
+    "downloaded": 1608895,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "109 debug pnpm:fetching-progress": {
+    "downloaded": 1625279,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "110 debug pnpm:fetching-progress": {
+    "downloaded": 1641663,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "111 debug pnpm:fetching-progress": {
+    "downloaded": 1658047,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "112 debug pnpm:fetching-progress": {
+    "downloaded": 1674431,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "113 debug pnpm:fetching-progress": {
+    "downloaded": 1690815,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "114 debug pnpm:fetching-progress": {
+    "downloaded": 1707199,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "115 debug pnpm:fetching-progress": {
+    "downloaded": 1723583,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "116 debug pnpm:fetching-progress": {
+    "downloaded": 1739967,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "117 debug pnpm:fetching-progress": {
+    "downloaded": 1756351,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "118 debug pnpm:fetching-progress": {
+    "downloaded": 1772735,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "119 debug pnpm:fetching-progress": {
+    "downloaded": 1789119,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "120 debug pnpm:fetching-progress": {
+    "downloaded": 1805503,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "121 debug pnpm:fetching-progress": {
+    "downloaded": 1821887,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "122 debug pnpm:fetching-progress": {
+    "downloaded": 1838271,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "123 debug pnpm:fetching-progress": {
+    "downloaded": 1854655,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "124 debug pnpm:fetching-progress": {
+    "downloaded": 1871039,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "125 debug pnpm:fetching-progress": {
+    "downloaded": 1887423,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "126 debug pnpm:fetching-progress": {
+    "downloaded": 1903807,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "127 debug pnpm:fetching-progress": {
+    "downloaded": 1920191,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "128 debug pnpm:fetching-progress": {
+    "downloaded": 1936575,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "129 debug pnpm:fetching-progress": {
+    "downloaded": 1952959,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "130 debug pnpm:fetching-progress": {
+    "downloaded": 1969343,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "131 debug pnpm:fetching-progress": {
+    "downloaded": 1985727,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "132 debug pnpm:fetching-progress": {
+    "downloaded": 2002111,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "133 debug pnpm:fetching-progress": {
+    "downloaded": 2018495,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "134 debug pnpm:fetching-progress": {
+    "downloaded": 2034879,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "135 debug pnpm:fetching-progress": {
+    "downloaded": 2051263,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "136 debug pnpm:fetching-progress": {
+    "downloaded": 2067647,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "137 debug pnpm:fetching-progress": {
+    "downloaded": 2084031,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "138 debug pnpm:fetching-progress": {
+    "downloaded": 2100415,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "139 debug pnpm:fetching-progress": {
+    "downloaded": 2116799,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "140 debug pnpm:fetching-progress": {
+    "downloaded": 2133183,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "141 debug pnpm:fetching-progress": {
+    "downloaded": 2149567,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "142 debug pnpm:fetching-progress": {
+    "downloaded": 2165951,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "143 debug pnpm:fetching-progress": {
+    "downloaded": 2182335,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "144 debug pnpm:fetching-progress": {
+    "downloaded": 2198719,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "145 debug pnpm:fetching-progress": {
+    "downloaded": 2215103,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "146 debug pnpm:fetching-progress": {
+    "downloaded": 2231487,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "147 debug pnpm:fetching-progress": {
+    "downloaded": 2247871,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "148 debug pnpm:fetching-progress": {
+    "downloaded": 2264255,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "149 debug pnpm:fetching-progress": {
+    "downloaded": 2280639,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "150 debug pnpm:fetching-progress": {
+    "downloaded": 2297023,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "151 debug pnpm:fetching-progress": {
+    "downloaded": 2313407,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "152 debug pnpm:fetching-progress": {
+    "downloaded": 2329791,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "153 debug pnpm:fetching-progress": {
+    "downloaded": 2341131,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "154 debug pnpm:fetching-progress": {
+    "downloaded": 2357515,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "155 debug pnpm:fetching-progress": {
+    "downloaded": 2373899,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "156 debug pnpm:fetching-progress": {
+    "downloaded": 2390283,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "157 debug pnpm:fetching-progress": {
+    "downloaded": 2406667,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "158 debug pnpm:fetching-progress": {
+    "downloaded": 2423051,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "159 debug pnpm:fetching-progress": {
+    "downloaded": 2439435,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "160 debug pnpm:fetching-progress": {
+    "downloaded": 2455819,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "161 debug pnpm:fetching-progress": {
+    "downloaded": 2472203,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "162 debug pnpm:fetching-progress": {
+    "downloaded": 2488587,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "163 debug pnpm:fetching-progress": {
+    "downloaded": 2504971,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "164 debug pnpm:fetching-progress": {
+    "downloaded": 2521355,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "165 debug pnpm:fetching-progress": {
+    "downloaded": 2537739,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "166 debug pnpm:fetching-progress": {
+    "downloaded": 2554123,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "167 debug pnpm:fetching-progress": {
+    "downloaded": 2570507,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "168 debug pnpm:fetching-progress": {
+    "downloaded": 2586891,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "169 debug pnpm:fetching-progress": {
+    "downloaded": 2603275,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "170 debug pnpm:fetching-progress": {
+    "downloaded": 2619659,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "171 debug pnpm:fetching-progress": {
+    "downloaded": 2636043,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "172 debug pnpm:fetching-progress": {
+    "downloaded": 2652427,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "173 debug pnpm:fetching-progress": {
+    "downloaded": 2668811,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "174 debug pnpm:fetching-progress": {
+    "downloaded": 2685195,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "175 debug pnpm:fetching-progress": {
+    "downloaded": 2701579,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "176 debug pnpm:fetching-progress": {
+    "downloaded": 2717963,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "177 debug pnpm:fetching-progress": {
+    "downloaded": 2734347,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "178 debug pnpm:fetching-progress": {
+    "downloaded": 2750731,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "179 debug pnpm:fetching-progress": {
+    "downloaded": 2767115,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "180 debug pnpm:fetching-progress": {
+    "downloaded": 2783499,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "181 debug pnpm:fetching-progress": {
+    "downloaded": 2799883,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "182 debug pnpm:fetching-progress": {
+    "downloaded": 2816267,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "183 debug pnpm:fetching-progress": {
+    "downloaded": 2832651,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "184 debug pnpm:fetching-progress": {
+    "downloaded": 2849035,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "185 debug pnpm:fetching-progress": {
+    "downloaded": 2865419,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "186 debug pnpm:fetching-progress": {
+    "downloaded": 2881803,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "187 debug pnpm:fetching-progress": {
+    "downloaded": 2898187,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "188 debug pnpm:fetching-progress": {
+    "downloaded": 2914571,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "189 debug pnpm:fetching-progress": {
+    "downloaded": 2930955,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "190 debug pnpm:fetching-progress": {
+    "downloaded": 2947339,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "191 debug pnpm:fetching-progress": {
+    "downloaded": 2963723,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "192 debug pnpm:fetching-progress": {
+    "downloaded": 2980107,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "193 debug pnpm:fetching-progress": {
+    "downloaded": 2996491,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "194 debug pnpm:fetching-progress": {
+    "downloaded": 3012875,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "195 debug pnpm:fetching-progress": {
+    "downloaded": 3029259,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "196 debug pnpm:fetching-progress": {
+    "downloaded": 3045643,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "197 debug pnpm:fetching-progress": {
+    "downloaded": 3062027,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "198 debug pnpm:fetching-progress": {
+    "downloaded": 3078411,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "199 debug pnpm:fetching-progress": {
+    "downloaded": 3094795,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "200 debug pnpm:fetching-progress": {
+    "downloaded": 3111179,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "201 debug pnpm:fetching-progress": {
+    "downloaded": 3127563,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "202 debug pnpm:fetching-progress": {
+    "downloaded": 3143947,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "203 debug pnpm:fetching-progress": {
+    "downloaded": 3160331,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "204 debug pnpm:fetching-progress": {
+    "downloaded": 3176715,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "205 debug pnpm:fetching-progress": {
+    "downloaded": 3193099,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "206 debug pnpm:fetching-progress": {
+    "downloaded": 3209483,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "207 debug pnpm:fetching-progress": {
+    "downloaded": 3225867,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "208 debug pnpm:fetching-progress": {
+    "downloaded": 3242251,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "209 debug pnpm:fetching-progress": {
+    "downloaded": 3258635,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "210 debug pnpm:fetching-progress": {
+    "downloaded": 3270923,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "211 debug pnpm:fetching-progress": {
+    "downloaded": 3287307,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "212 debug pnpm:fetching-progress": {
+    "downloaded": 3303691,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "213 debug pnpm:fetching-progress": {
+    "downloaded": 3320075,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "214 debug pnpm:fetching-progress": {
+    "downloaded": 3336459,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "215 debug pnpm:fetching-progress": {
+    "downloaded": 3352843,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "216 debug pnpm:fetching-progress": {
+    "downloaded": 3369227,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "217 debug pnpm:fetching-progress": {
+    "downloaded": 3385611,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "218 debug pnpm:fetching-progress": {
+    "downloaded": 3401995,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "219 debug pnpm:fetching-progress": {
+    "downloaded": 3418379,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "220 debug pnpm:fetching-progress": {
+    "downloaded": 3434763,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "221 debug pnpm:fetching-progress": {
+    "downloaded": 3451147,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "222 debug pnpm:fetching-progress": {
+    "downloaded": 3467531,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "223 debug pnpm:fetching-progress": {
+    "downloaded": 3483915,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "224 debug pnpm:fetching-progress": {
+    "downloaded": 3500299,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "225 debug pnpm:fetching-progress": {
+    "downloaded": 3516683,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "226 debug pnpm:fetching-progress": {
+    "downloaded": 3533067,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "227 debug pnpm:fetching-progress": {
+    "downloaded": 3549451,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "228 debug pnpm:fetching-progress": {
+    "downloaded": 3565835,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "229 debug pnpm:fetching-progress": {
+    "downloaded": 3582219,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "230 debug pnpm:fetching-progress": {
+    "downloaded": 3598603,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "231 debug pnpm:fetching-progress": {
+    "downloaded": 3614987,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "232 debug pnpm:fetching-progress": {
+    "downloaded": 3631371,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "233 debug pnpm:fetching-progress": {
+    "downloaded": 3647755,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "234 debug pnpm:fetching-progress": {
+    "downloaded": 3664139,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "235 debug pnpm:fetching-progress": {
+    "downloaded": 3680523,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "236 debug pnpm:fetching-progress": {
+    "downloaded": 3696907,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "237 debug pnpm:fetching-progress": {
+    "downloaded": 3701003,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "238 debug pnpm:fetching-progress": {
+    "downloaded": 3717387,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "239 debug pnpm:fetching-progress": {
+    "downloaded": 3733771,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "240 debug pnpm:fetching-progress": {
+    "downloaded": 3750155,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "241 debug pnpm:fetching-progress": {
+    "downloaded": 3766539,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "242 debug pnpm:fetching-progress": {
+    "downloaded": 3782923,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "243 debug pnpm:fetching-progress": {
+    "downloaded": 3799307,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "244 debug pnpm:fetching-progress": {
+    "downloaded": 3815691,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "245 debug pnpm:fetching-progress": {
+    "downloaded": 3832075,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "246 debug pnpm:fetching-progress": {
+    "downloaded": 3848459,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "247 debug pnpm:fetching-progress": {
+    "downloaded": 3864843,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "248 debug pnpm:fetching-progress": {
+    "downloaded": 3881227,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "249 debug pnpm:fetching-progress": {
+    "downloaded": 3897611,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "250 debug pnpm:fetching-progress": {
+    "downloaded": 3913995,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "251 debug pnpm:fetching-progress": {
+    "downloaded": 3930379,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "252 debug pnpm:fetching-progress": {
+    "downloaded": 3946763,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "253 debug pnpm:fetching-progress": {
+    "downloaded": 3963147,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "254 debug pnpm:fetching-progress": {
+    "downloaded": 3979531,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "255 debug pnpm:fetching-progress": {
+    "downloaded": 3983627,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "256 debug pnpm:fetching-progress": {
+    "downloaded": 4000011,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "257 debug pnpm:fetching-progress": {
+    "downloaded": 4016395,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "258 debug pnpm:fetching-progress": {
+    "downloaded": 4032779,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "259 debug pnpm:fetching-progress": {
+    "downloaded": 4049163,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "260 debug pnpm:fetching-progress": {
+    "downloaded": 4065547,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "261 debug pnpm:fetching-progress": {
+    "downloaded": 4081931,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "262 debug pnpm:fetching-progress": {
+    "downloaded": 4098315,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "263 debug pnpm:fetching-progress": {
+    "downloaded": 4114699,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "264 debug pnpm:fetching-progress": {
+    "downloaded": 4131083,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "265 debug pnpm:fetching-progress": {
+    "downloaded": 4147467,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "266 debug pnpm:fetching-progress": {
+    "downloaded": 4163851,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "267 debug pnpm:fetching-progress": {
+    "downloaded": 4180235,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "268 debug pnpm:fetching-progress": {
+    "downloaded": 4196619,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "269 debug pnpm:fetching-progress": {
+    "downloaded": 4213003,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "270 debug pnpm:fetching-progress": {
+    "downloaded": 4229387,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "271 debug pnpm:fetching-progress": {
+    "downloaded": 4245771,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "272 debug pnpm:fetching-progress": {
+    "downloaded": 4262155,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "273 debug pnpm:fetching-progress": {
+    "downloaded": 4278539,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "274 debug pnpm:fetching-progress": {
+    "downloaded": 4290827,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "275 debug pnpm:fetching-progress": {
+    "downloaded": 4307211,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "276 debug pnpm:fetching-progress": {
+    "downloaded": 4323595,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "277 debug pnpm:fetching-progress": {
+    "downloaded": 4339979,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "278 debug pnpm:fetching-progress": {
+    "downloaded": 4356363,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "279 debug pnpm:fetching-progress": {
+    "downloaded": 4372747,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "280 debug pnpm:fetching-progress": {
+    "downloaded": 4389131,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "281 debug pnpm:fetching-progress": {
+    "downloaded": 4405515,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "282 debug pnpm:fetching-progress": {
+    "downloaded": 4409611,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "283 debug pnpm:fetching-progress": {
+    "downloaded": 4417803,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "284 debug pnpm:fetching-progress": {
+    "downloaded": 4430091,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "285 debug pnpm:fetching-progress": {
+    "downloaded": 4446475,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "286 debug pnpm:fetching-progress": {
+    "downloaded": 4450571,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "287 debug pnpm:fetching-progress": {
+    "downloaded": 4462859,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "288 debug pnpm:fetching-progress": {
+    "downloaded": 4479243,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "289 debug pnpm:fetching-progress": {
+    "downloaded": 4495627,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "290 debug pnpm:fetching-progress": {
+    "downloaded": 4512011,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "291 debug pnpm:fetching-progress": {
+    "downloaded": 4524299,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "292 debug pnpm:fetching-progress": {
+    "downloaded": 4540683,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "293 debug pnpm:fetching-progress": {
+    "downloaded": 4548875,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "294 debug pnpm:fetching-progress": {
+    "downloaded": 4557067,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "295 debug pnpm:fetching-progress": {
+    "downloaded": 4561163,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "296 debug pnpm:fetching-progress": {
+    "downloaded": 4569355,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "297 debug pnpm:fetching-progress": {
+    "downloaded": 4581643,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "298 debug pnpm:fetching-progress": {
+    "downloaded": 4598027,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "299 debug pnpm:fetching-progress": {
+    "downloaded": 4614411,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "300 debug pnpm:fetching-progress": {
+    "downloaded": 4630795,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "301 debug pnpm:fetching-progress": {
+    "downloaded": 4647179,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "302 debug pnpm:fetching-progress": {
+    "downloaded": 4659467,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "303 debug pnpm:fetching-progress": {
+    "downloaded": 4675851,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "304 debug pnpm:fetching-progress": {
+    "downloaded": 4692235,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "305 debug pnpm:fetching-progress": {
+    "downloaded": 4708619,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "306 debug pnpm:fetching-progress": {
+    "downloaded": 4725003,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "307 debug pnpm:fetching-progress": {
+    "downloaded": 4741387,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "308 debug pnpm:fetching-progress": {
+    "downloaded": 4757771,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "309 debug pnpm:fetching-progress": {
+    "downloaded": 4774155,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "310 debug pnpm:fetching-progress": {
+    "downloaded": 4778251,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "311 debug pnpm:fetching-progress": {
+    "downloaded": 4794635,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "312 debug pnpm:fetching-progress": {
+    "downloaded": 4811019,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "313 debug pnpm:fetching-progress": {
+    "downloaded": 4819211,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "314 debug pnpm:fetching-progress": {
+    "downloaded": 4835595,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "315 debug pnpm:fetching-progress": {
+    "downloaded": 4851979,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "316 debug pnpm:fetching-progress": {
+    "downloaded": 4860171,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "317 debug pnpm:fetching-progress": {
+    "downloaded": 4876555,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "318 debug pnpm:fetching-progress": {
+    "downloaded": 4892939,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "319 debug pnpm:fetching-progress": {
+    "downloaded": 4909323,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "320 debug pnpm:fetching-progress": {
+    "downloaded": 4925707,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "321 debug pnpm:fetching-progress": {
+    "downloaded": 4942091,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "322 debug pnpm:fetching-progress": {
+    "downloaded": 4958475,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "323 debug pnpm:fetching-progress": {
+    "downloaded": 4974859,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "324 debug pnpm:fetching-progress": {
+    "downloaded": 4991243,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "325 debug pnpm:fetching-progress": {
+    "downloaded": 5007627,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "326 debug pnpm:fetching-progress": {
+    "downloaded": 5024011,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "327 debug pnpm:fetching-progress": {
+    "downloaded": 5040395,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "328 debug pnpm:fetching-progress": {
+    "downloaded": 5056779,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "329 debug pnpm:fetching-progress": {
+    "downloaded": 5073163,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "330 debug pnpm:fetching-progress": {
+    "downloaded": 5089547,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "331 debug pnpm:fetching-progress": {
+    "downloaded": 5105931,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "332 debug pnpm:fetching-progress": {
+    "downloaded": 5122315,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "333 debug pnpm:fetching-progress": {
+    "downloaded": 5138699,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "334 debug pnpm:fetching-progress": {
+    "downloaded": 5155083,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "335 debug pnpm:fetching-progress": {
+    "downloaded": 5171467,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "336 debug pnpm:fetching-progress": {
+    "downloaded": 5187851,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "337 debug pnpm:fetching-progress": {
+    "downloaded": 5204235,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "338 debug pnpm:fetching-progress": {
+    "downloaded": 5220619,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "339 debug pnpm:fetching-progress": {
+    "downloaded": 5237003,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "340 debug pnpm:fetching-progress": {
+    "downloaded": 5253387,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "341 debug pnpm:fetching-progress": {
+    "downloaded": 5269771,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "342 debug pnpm:fetching-progress": {
+    "downloaded": 5286155,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "343 debug pnpm:fetching-progress": {
+    "downloaded": 5302539,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "344 debug pnpm:fetching-progress": {
+    "downloaded": 5318923,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "345 debug pnpm:fetching-progress": {
+    "downloaded": 5335307,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "346 debug pnpm:fetching-progress": {
+    "downloaded": 5351691,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "347 debug pnpm:fetching-progress": {
+    "downloaded": 5368075,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "348 debug pnpm:fetching-progress": {
+    "downloaded": 5384459,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "349 debug pnpm:fetching-progress": {
+    "downloaded": 5400843,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "350 debug pnpm:fetching-progress": {
+    "downloaded": 5417227,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "351 debug pnpm:fetching-progress": {
+    "downloaded": 5433611,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "352 debug pnpm:fetching-progress": {
+    "downloaded": 5449995,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "353 debug pnpm:fetching-progress": {
+    "downloaded": 5466379,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "354 debug pnpm:fetching-progress": {
+    "downloaded": 5482763,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "355 debug pnpm:fetching-progress": {
+    "downloaded": 5499147,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "356 debug pnpm:fetching-progress": {
+    "downloaded": 5515531,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "357 debug pnpm:fetching-progress": {
+    "downloaded": 5531915,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "358 debug pnpm:fetching-progress": {
+    "downloaded": 5548299,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "359 debug pnpm:fetching-progress": {
+    "downloaded": 5564683,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "360 debug pnpm:fetching-progress": {
+    "downloaded": 5581067,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "361 debug pnpm:fetching-progress": {
+    "downloaded": 5597451,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "362 debug pnpm:fetching-progress": {
+    "downloaded": 5613835,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "363 debug pnpm:fetching-progress": {
+    "downloaded": 5630219,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "364 debug pnpm:fetching-progress": {
+    "downloaded": 5646603,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "365 debug pnpm:fetching-progress": {
+    "downloaded": 5662987,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "366 debug pnpm:fetching-progress": {
+    "downloaded": 5679371,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "367 debug pnpm:fetching-progress": {
+    "downloaded": 5695755,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "368 debug pnpm:fetching-progress": {
+    "downloaded": 5712139,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "369 debug pnpm:fetching-progress": {
+    "downloaded": 5728523,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "370 debug pnpm:fetching-progress": {
+    "downloaded": 5744907,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "371 debug pnpm:fetching-progress": {
+    "downloaded": 5761291,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "372 debug pnpm:fetching-progress": {
+    "downloaded": 5777675,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "373 debug pnpm:fetching-progress": {
+    "downloaded": 5794059,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "374 debug pnpm:fetching-progress": {
+    "downloaded": 5810443,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "375 debug pnpm:fetching-progress": {
+    "downloaded": 5826827,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "376 debug pnpm:fetching-progress": {
+    "downloaded": 5843211,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "377 debug pnpm:fetching-progress": {
+    "downloaded": 5859595,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "378 debug pnpm:fetching-progress": {
+    "downloaded": 5875979,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "379 debug pnpm:fetching-progress": {
+    "downloaded": 5892363,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "380 debug pnpm:fetching-progress": {
+    "downloaded": 5908747,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "381 debug pnpm:fetching-progress": {
+    "downloaded": 5925131,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "382 debug pnpm:fetching-progress": {
+    "downloaded": 5941515,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "383 debug pnpm:fetching-progress": {
+    "downloaded": 5957899,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "384 debug pnpm:fetching-progress": {
+    "downloaded": 5974283,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "385 debug pnpm:fetching-progress": {
+    "downloaded": 5990667,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "386 debug pnpm:fetching-progress": {
+    "downloaded": 6007051,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "387 debug pnpm:fetching-progress": {
+    "downloaded": 6023435,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "388 debug pnpm:fetching-progress": {
+    "downloaded": 6039819,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "389 debug pnpm:fetching-progress": {
+    "downloaded": 6056203,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "390 debug pnpm:fetching-progress": {
+    "downloaded": 6064395,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "391 debug pnpm:fetching-progress": {
+    "downloaded": 6080779,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "392 debug pnpm:fetching-progress": {
+    "downloaded": 6097163,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "393 debug pnpm:fetching-progress": {
+    "downloaded": 6113547,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "394 debug pnpm:fetching-progress": {
+    "downloaded": 6129931,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "395 debug pnpm:fetching-progress": {
+    "downloaded": 6146315,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "396 debug pnpm:fetching-progress": {
+    "downloaded": 6162699,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "397 debug pnpm:fetching-progress": {
+    "downloaded": 6179083,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "398 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.58.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.54.0"
+    }
+  },
+  "399 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.58.0",
+    "requester": "C:\\Personal\\Projects\\sassle",
+    "status": "resolved"
+  },
+  "400 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/3.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^3.0.1"
+    }
+  },
+  "401 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/3.2.0",
+    "requester": "C:\\Personal\\Projects\\sassle",
+    "status": "resolved"
+  },
+  "402 debug pnpm:fetching-progress": {
+    "downloaded": 6195467,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "403 debug pnpm:fetching-progress": {
+    "downloaded": 6211851,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "404 debug pnpm:fetching-progress": {
+    "downloaded": 6228235,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "405 debug pnpm:fetching-progress": {
+    "downloaded": 6244619,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "406 debug pnpm:fetching-progress": {
+    "downloaded": 6261003,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "407 debug pnpm:fetching-progress": {
+    "downloaded": 6277387,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "408 debug pnpm:fetching-progress": {
+    "downloaded": 6293771,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "409 debug pnpm:fetching-progress": {
+    "downloaded": 6310155,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "410 debug pnpm:fetching-progress": {
+    "downloaded": 6326539,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "411 debug pnpm:fetching-progress": {
+    "downloaded": 6342923,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "412 debug pnpm:fetching-progress": {
+    "downloaded": 6359307,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "413 debug pnpm:fetching-progress": {
+    "downloaded": 6375691,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "414 debug pnpm:fetching-progress": {
+    "downloaded": 6392075,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "415 debug pnpm:fetching-progress": {
+    "downloaded": 6408459,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "416 debug pnpm:fetching-progress": {
+    "downloaded": 6424843,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "417 debug pnpm:fetching-progress": {
+    "downloaded": 6441227,
+    "packageId": "registry.npmjs.org/typescript/5.0.4",
+    "status": "in_progress"
+  },
+  "418 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte/3.58.0",
+    "size": 1958609,
+    "status": "started"
+  },
+  "419 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/vite/4.3.1: wanted: {\"node\":\"^14.18.0 || >=16.0.0\"} (current: {\"node\":\"v14.17.0\",\"pnpm\":\"7.0.0-rc.7\"})",
+    "prefix": "C:\\Personal\\Projects\\sassle"
+  },
+  "420 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/vite/4.3.1",
+    "wanted": {
+      "node": "^14.18.0 || >=16.0.0"
+    },
+    "current": {
+      "node": "v14.17.0",
+      "pnpm": "7.0.0-rc.7"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/vite/4.3.1: wanted: {\"node\":\"^14.18.0 || >=16.0.0\"} (current: {\"node\":\"v14.17.0\",\"pnpm\":\"7.0.0-rc.7\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/vite/4.3.1: wanted: {\"node\":\"^14.18.0 || >=16.0.0\"} (current: {\"node\":\"v14.17.0\",\"pnpm\":\"7.0.0-rc.7\"})\n    at checkEngine (C:\\snapshot\\dist\\pnpm.cjs)\n    at checkPackage (C:\\snapshot\\dist\\pnpm.cjs)\n    at packageIsInstallable (C:\\snapshot\\dist\\pnpm.cjs)\n    at resolveAndFetch (C:\\snapshot\\dist\\pnpm.cjs)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async resolveDependency (C:\\snapshot\\dist\\pnpm.cjs)\n    at async resolveDependenciesOfDependency (C:\\snapshot\\dist\\pnpm.cjs)\n    at async Promise.all (index 6)\n    at async resolveDependencies (C:\\snapshot\\dist\\pnpm.cjs)"
+    }
+  }
+}
