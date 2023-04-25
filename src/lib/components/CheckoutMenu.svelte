@@ -3,7 +3,7 @@
     import { cartStore } from "../../services/cart";
     import {ArrowRight, XMark} from 'svelte-heros-v2';
     import { user } from "../../services/auth";
-    import { loginModalOpen } from "../../services/login";
+    import { loginModalOpen, nextActionStore } from "../../services/login";
 
     $: cart = $cartStore;
     $: userData = $user;
@@ -11,9 +11,18 @@
     const goToCheckout = async () => {
         if (!userData)
         {
+            nextActionStore.set({
+                display: 'Checkout',
+                action: () => doCheckOut()
+            })
             loginModalOpen.set(true);
         }else{
-            const resp = await fetch('/checkout', {
+            doCheckOut();
+        }
+    }
+
+    const doCheckOut =  async () => {
+        const resp = await fetch('/checkout', {
                 method: 'POST',
                 body: JSON.stringify(cart)
             }).then(r => r.json()) as {sessionURL: string};
@@ -21,9 +30,8 @@
             cartStore.set([]);
 
             window.location.href = resp.sessionURL;
-        }
     }
-
+  
     
 </script>
 

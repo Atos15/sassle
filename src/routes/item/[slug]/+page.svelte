@@ -239,8 +239,8 @@
 </script>
 
 <Header />
-<div class="grid grid-cols-[100px_2fr_1fr] font-sans">
-    <div class="view-selector p-2">
+<div class="grid grid-cols-[100px_2fr_1fr] font-sans main-layout">
+    <div class="view-selector p-2 layout-selector flex md:block">
         {#each choises as choise, idx}
             <button on:click={(_) => (index = idx)} class="block">
                 <img class={selectorStyle(idx)} src={choise.thumb} />
@@ -248,7 +248,7 @@
         {/each}
     </div>
     <div
-        class="view-preview border-oran relative"
+        class="view-preview border-oran relative layout-view"
         bind:this={preview}
         bind:offsetWidth={width}
     >
@@ -261,7 +261,7 @@
             bind:naturalHeight={imageHeight}
         />
     </div>
-    <div class="p-4">
+    <div class="p-4 layout-personalize">
         <span class="block">by {data.by}</span>
         <span class="block text-xl py-1">{data.title}</span>
         <span class="font-semibold text-xl text-gray-600"
@@ -306,3 +306,27 @@
     {qty} x {data.title} added to the shopping cart
 </Toast>
 <Login />
+
+
+
+<style>
+
+@media (max-width: 768px) { 
+    .main-layout{
+        grid-template: "view" "selector" "personalize";
+    }
+
+    .layout-selector{
+        grid-area: selector;
+    }
+
+    .layout-view{
+        grid-area: view;
+    }
+
+    .layout-personalize{
+        grid-area: personalize;
+    }
+}
+
+</style>

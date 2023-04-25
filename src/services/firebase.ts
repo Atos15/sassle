@@ -62,4 +62,6 @@ export async function loginUser(email: string, password: string) {
     }).then(async r => r.ok ? await r.json() : undefined) as LoggedUser | undefined;
 
     user.set(uid);
+
+    return uid;
 }
